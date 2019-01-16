@@ -1,0 +1,13 @@
+.deleteBtn {
+    font-family: 'Bitter', serif;
+    background-color: #941F1F;
+    margin-bottom: 2%;
+}
+
+.deleteBtn:hover {
+    background-color: #CE6B5D;
+}
+
+.deleteBtn:focus {
+    background-color: #941F1F;
+}

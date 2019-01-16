@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Pirata+One');
+
+body {
+    font-family: 'Bitter', serif;
+}
+.container {
+    background-color: #fff;
+    padding: 1%;
+}
+
+.header {
+    background-color: #606472;
+    font-family: 'Pirata One', cursive;
+    color: white;
+    text-align: center;
+    
+}
+
+h4 {
+    font-size: 2.5rem;
+    padding: 1.5% 0 1.5% 0;
+    margin: 0;
+}
+
+.noArticles {
+    color: #941F1F;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+.readBtn {
+    margin-right: 2%;
+    margin-bottom: 2%;
+    background-color: #0B4061;
+}
+
+.readBtn:hover {
+    background-color: #1372AD;
+    
+}
+
+.readBtn:focus {
+    background-color: #0B4061;
+}
+
+.article {
+    background-color: #fff;
+}

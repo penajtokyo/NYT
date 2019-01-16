@@ -1,0 +1,13 @@
+nav {
+    background-color: #031d47;
+    margin-bottom: 2%;
+}
+
+.brand-logo {
+    margin-top: 0;
+    font-family: 'Pirata One', cursive;
+}
+
+nav .brand-logo {
+    font-size: 3.5rem;
+}

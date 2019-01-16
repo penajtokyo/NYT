@@ -1,0 +1,38 @@
+.searchForm {
+    background-color: #F2F2F2;
+    padding: 1% 5% 1% 5%;
+}
+
+input {
+    font-family: 'Bitter', serif;
+}
+
+/* makes the input lines when in focus black */
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]) {
+  border-bottom:1px solid black;
+  box-shadow: 0 1px 0 0 black;
+  
+}
+
+.input-field input[type=number].valid,
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #386d3b;
+    box-shadow: 0 1px 0 0 #386d3b;
+}
+
+.input-field input[type=number].invalid,
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #941F1F;
+    box-shadow: 0 1px 0 0 #941F1F;
+}
+
+.submitBtn,
+.submitBtn:focus {
+    font-family: 'Bitter', serif;
+    background-color: #858CA5;
+}
+
+.submitBtn:hover {
+    background-color: #386d3b;
+}
